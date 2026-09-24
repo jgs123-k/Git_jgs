@@ -7,7 +7,7 @@ class Student {
 
     private long phonenum;
 
-    // 생성자
+
     public Student(int id, String n, String m, long p) {
         stdid = id;
         name = n;
@@ -36,10 +36,10 @@ public class Homework2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // 3명의 학생 정보를 저장할 배열 생성
+
         Student[] students = new Student[3];
 
-        // 3번 반복해서 입력받기
+
         for (int i = 0; i < 3; i++) {
             System.out.print("학생의 학번, 이름, 전공, 전화번호를 입력하세요: ");
             int id = scanner.nextInt();
